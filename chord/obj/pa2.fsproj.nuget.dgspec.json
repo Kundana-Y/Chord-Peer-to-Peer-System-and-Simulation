@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/chandu_krosuri/Downloads/chord/pa2.fsproj": {}
+  },
+  "projects": {
+    "/Users/chandu_krosuri/Downloads/chord/pa2.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/chandu_krosuri/Downloads/chord/pa2.fsproj",
+        "projectName": "pa2",
+        "projectPath": "/Users/chandu_krosuri/Downloads/chord/pa2.fsproj",
+        "packagesPath": "/Users/chandu_krosuri/.nuget/packages/",
+        "outputPath": "/Users/chandu_krosuri/Downloads/chord/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/chandu_krosuri/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.401/FSharp/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Akka.FSharp": {
+              "target": "Package",
+              "version": "[1.5.13, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[7.0.400, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
